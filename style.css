@@ -12,6 +12,13 @@ html{
 }
 
 
+/*.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+}*/
 
 .container-header{
     display: flex;
@@ -158,7 +165,7 @@ html{
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    width: 70%;
+    width: 1200px;
 
 }
 
@@ -191,17 +198,47 @@ html{
 .destaques{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    background-color: red;
     width: 100%;
     height: 70%;
-    border-radius: 20px;
+    gap: 20px;
 }
 
-.destaques img{
-    width: 100px;
-    
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: white;
+    height: 100%;
+    gap: 1rem;
 }
+
+.title-card{
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+.destaques > img{
+    width: 100%; 
+    border-radius: 2px;  
+}
+
+.imagens-menores{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%s;
+}
+
+.imagens-menores img{
+    width: 100px;
+    border-radius: 2px;
+}
+
+
+
 
 
