@@ -148,7 +148,7 @@ body {
     align-items: center;
     gap: 40px;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 5px;
     padding: 20px 0;
 }
 
@@ -195,9 +195,9 @@ body {
 }
 
 .title-card{
+    padding-left: 1rem;
     font-weight: bold;
     font-size: 24px;
-
 }
 
 .destaques > img{
@@ -227,9 +227,14 @@ body {
     border-radius: 12px;
 }
 
+.title-ofertas{
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .container-cards-ofertas{
     display: flex; 
-    justify-content: center;
+    justify-content: first baseline;
     flex-wrap: wrap;
     gap: 15px;
 }
@@ -246,3 +251,109 @@ body {
     width: 120px;
     border-radius: 8px;
 }
+
+.cards-preco{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cards-desconto{
+    font-size: 18px;
+    color: #00a650;
+}
+
+.cards-comprar a{
+    font-size: 12px;
+    color: #00a650;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container-informacoes{
+    display: flex;
+    gap: 20px;
+}
+
+.informacao{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.icon-informacao{
+    font-size: 48px;
+    color: #2f9e41;
+}
+
+.title-informacao{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.footer-top {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+}
+.title-footer{
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.footer-item{
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.text-footer a{
+    color: #666;
+    text-decoration: none;
+}
+
+.footer-botoom{
+    width: 78%;
+    border-top: 1px solid #ebebeb;
+    padding-top: 30px;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.icons-footer{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: #00a650;
+    font-size: 20px;
+}
+
+.footer-copy{
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+}
+
+.footer-copy > span{
+    color: #ccc;
+    font-size: 12px;
+}
+
+
